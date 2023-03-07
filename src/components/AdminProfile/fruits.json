@@ -1,0 +1,63 @@
+{
+    "fruits": [
+        
+      {
+        "id": 0,
+        "slidename": "Slide1",
+        "image": "/images/slide/18.png",
+        "headerline":
+          "The Bored Panda Collection is here.",
+        "subtxt": "It’s the hottest thing to hit the market since the apes left town. Don’t miss your chance at owning one of these rares!",
+        "buttontext": "Let's go",
+        "url": "Banana",
+        "buttoncolor":"#8D3695",
+        "state": "Banana",
+        "buttontext2": "Featured",
+        "url2": "Banana",
+        "buttoncolor2": "#A71A13",
+        "duration": "Banana",
+        "enable": true
+
+      },
+      {
+        "id": 1,
+        "slidename": "Slide2",
+        "image": "/images/slide/1.png",
+        "headerline":
+          "Vestibulum luctus euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "subtxt": "Banana",
+        "buttontext": "Banana",
+        "url": "Banana",
+        "buttoncolor":"",
+        "state": "Banana",
+        "buttontext2": "Banana",
+        "url2": "Banana",
+        "buttoncolor2": "",
+        "duration": "Banana",
+        "enable": true
+
+      },
+      {
+        "id": 2,
+        "slidename": "Slide3",
+        "image": "/images/slide/2.png",
+        "headerline":
+          "Vestibulum luctus euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "subtxt": "Banana",
+        "buttontext": "Banana",
+        "url": "Banana",
+        "buttoncolor":"#8D3695",
+        "state": "Banana",
+        "buttontext2": "Banana",
+        "url2": "Banana",
+        "buttoncolor2": "#A71A13",
+        "duration": "Banana"
+
+      }
+      
+      
+    ],
+    "emptyfruits": []  
+    
+  }
+  

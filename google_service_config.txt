@@ -1,0 +1,2 @@
+client_id :471641417365-2s818chaosd9bb1h9b6mc51d2pbn7oga.apps.googleusercontent.com
+secret : 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

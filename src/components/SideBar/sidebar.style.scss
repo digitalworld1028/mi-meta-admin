@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+@import "../../styles/_variables.scss";
+.sidebar {
+  background-color: #232325;
+  .nav-link:hover {
+    background-color: #333236;
+  }
+  .wallet-item {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .more-btn:hover {
+    cursor: pointer;
+  }
+  .logo-btn:hover {
+    cursor: pointer;
+  }
+  .sidebar-hr {
+    color: #b32f76;
+    height: 2px;
+  }
+  .sidebar-link-item {
+    vertical-align: middle;
+    color: #bbbbbb;
+  }
+}
+.offcanvas-backdrop {
+  display: none;
+}
+.offcanvas-header {
+  .btn-close {
+    color: white;
+    display: none;
+  }
+}

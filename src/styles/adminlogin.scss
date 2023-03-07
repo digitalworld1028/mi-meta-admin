@@ -1,0 +1,134 @@
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+@import "./_variables.scss";
+.login {
+//   input:-internal-autofill-selected {
+//     appearance: menulist-button;
+//     background-image: none !important;
+//     background-color: black!important;
+//     color: fieldtext !important;
+// }
+  .form-control {
+    background-color: transparent;
+  }
+  .input-group-text {
+    background-color: transparent;
+  }
+  .form-check-input {
+    background-color: transparent;
+    border: 1px solid gray;
+  }
+  .notfound-container {
+    position: absolute;
+    top: 20%;
+  }
+  .notfound-title {
+    font-size: 140px;
+    color: white !important;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .notfound-content {
+    font-size: 20px;
+    color: white !important;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .login_form {
+    background: #000a10;
+    opacity: 0.8;
+    max-width: 500px;
+    margin: auto;
+    padding: 60px;
+  }
+  .logo_img {
+    height: 80px;
+  }
+  .button_style {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mr-2 {
+    margin-right: 20px;
+  }
+  // .btn_width_200 {
+  //     width: 80%;
+  // }
+  .signin_btn {
+    background: #70bbfd;
+    border-radius: 5px;
+  }
+  .create_btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #70bbfd;
+    color: #70bbfd;
+  }
+  .white {
+    color: white;
+  }
+  .form-check-label {
+    color: white !important;
+  }
+  .white_line {
+    width: 30%;
+    color: white;
+    border-top: 3px solid;
+    margin-top: 10px;
+  }
+  .pr-10 {
+    padding-right: 10px;
+  }
+  .pl-10 {
+    padding-left: 10px;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .mainLoginInput::before {
+    image-rendering: auto;
+  }
+  .input-group > .form-control:focus,
+  .input-group > .form-select:focus {
+    z-index: 3;
+    background: transparent;
+    box-shadow: none;
+    border-color: #999999;
+    color: white;
+  }
+  .forget_btn {
+    background: linear-gradient(180deg, #70BCFD -19.23%, #403896 -19.22%, #8D3695 51.86%, #BB2E69 117.49%);
+    border-radius: 5px;
+    border:0px;
+  }
+  .forget-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+  }
+  .forget-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .center {
+    justify-content: center !important;
+  }
+
+}
